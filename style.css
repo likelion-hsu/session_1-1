@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Serif+KR:wght@200&display=swap');
+
+*{
+    font-family: 'Noto Serif KR', serif;
+}
+h2{
+    border-bottom: 1px solid black;
+    font-size: 26px;
+    color: gray;
+}
+div{
+    border:1px solid #ebeeeb;
+    box-shadow: 0px 1px 20px 0px rgba(115, 80, 212, 0.4);
+    margin: 15px;
+}
+.mainspace {
+    margin-left: 10px;
+    background-color: aliceblue;
+}
+.titlebox{
+    margin-top: 15px;
+}
+.maintitle{
+    margin: 25px;
+    font-weight: bold;
+}
+.titlebutton{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.mainimg{
+    width: 100px;
+}
+.imgsection{
+    float: right;
+    margin: 15px;
+    padding-top: 60px;
+}
+.footer {
+    text-align: center;
+}
