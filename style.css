@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@1,500;1,700&display=swap');
+
+h2 {
+    font-size: 50px;
+    color : red;
+    border-bottom : 1px solid 
+}
+
+.mainspace {
+    background-color :antiquewhite;
+}
+
+div {
+    /* padding border margin */
+    /* 각각의 테두리의 이름 */
+
+    border : 1px solid #ededed;
+    /* 실선 : solid */
+    box-shadow: 0px 1px 20px 0px rgba(115,80,212, 0.4);
+}
+
+.titlebox {
+    margin-top : 15px;
+}
+
+.mainbox {
+    margin : 15px;
+}
+
+.mainImg {
+    width: 50%;
+    height : 50%;
+    float : right;
+    margin : 15px;
+}
