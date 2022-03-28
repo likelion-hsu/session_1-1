@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Montserrat:ital,wght@1,100&family=Noto+Sans:ital,wght@1,700&display=swap");
+
+* {
+  font-family: "Noto Sans";
+}
+h1 {
+  padding: 15px;
+}
+h2 {
+  font-size: 50px;
+  color: red;
+  border-bottom: 1px solid black;
+}
+
+.mainspace {
+  background-color: white;
+}
+
+div {
+  border: 1px solid #ededed;
+  box-shadow: 0px 1px 20px 0px rgba(115, 80, 212, 0.4);
+}
+
+.titlebox {
+  margin-top: 15px;
+}
+
+.mainbox {
+  margin: 10px;
+}
+
+.mainImg {
+  width: 200px;
+  float: right;
+  margin: 10px;
+  height: 200px;
+}
+
+.buttonSection {
+  float: right;
+  margin: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+.imgSection {
+  float: right;
+  margin: 10px;
+  padding-top: 60px;
+}
