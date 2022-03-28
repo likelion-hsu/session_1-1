@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+
+*{
+    font-family: "Noto sans";
+}
+
+h1{
+    padding:10px;
+        
+
+    
+}
+
+h2 {
+    font-size:26px;
+    color: red;
+    border-bottom: 1px solid black;
+}
+
+.mainspace {
+    background-color: white;
+}
+
+div {
+    border : 2px solid black;
+    box-shadow: 0px 1px 20px 0px rgba(115, 80, 212, 0.4 );  /*x크기 y크기 흐림정도 번짐정도 색깔*/
+}
+
+.titlebox{
+     margin-top: 15px;
+}
+
+.mainbox {
+    margin: 15px;
+}
+
+.mainImg {
+    width: 150px;
+    float: right;
+    margin: 15px;
+}
+.buttonSection{
+    float : right;
+    margin-top:10px;
+    }
+
+footer{
+    text-align : center;
+}
