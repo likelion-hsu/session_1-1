@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100&display=swap');
+
+* {
+    font-family: 'IBM';
+}
+
+h1 {
+    padding: 15px;
+}
+
+h2 {
+    font-size: 26px;
+    color: red;
+    border-bottom: 1px soild bl;
+}
+
+footer {
+    text-align: center;
+}
+
+.mainSpace {
+    background-color: white;
+}
+
+div {
+    /*margin border padding
+  padding border margin*/
+
+    border: 1px solid #ededed;
+    box-shadow: 0px 1px 20px 0px rgba(81, 189, 148, 0.4); /* x크기 y크기 흐림정도 번짐정도 색깔 */
+}
+
+.titlebox {
+    margin-top: 15px;
+}
+
+.buttonSection {
+    float: right;
+    margin: 20px;
+}
+
+.mainbox {
+    margin: 15px;
+}
+
+.mainImg {
+    /*width 가로의길이 height 세로의길이*/
+    width: 160px;
+    float: right;
+    margin: 15px;
+}
