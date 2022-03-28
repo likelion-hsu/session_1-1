@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  padding: 0 13%;
+}
+
+.content {
+  width: 100%;
+  overflow: hidden;
+}
+
+.content p {
+  float: left;
+  width: 70%;
+}
+
+img {
+  float: right;
+  max-width: 15%;
+}
+
+header {
+  margin-top: 100px;
+}
+
+.btn_area {
+  float: right;
+}
+
+h1{
+  float: left;
+}
+
+.btn {
+  float: left;
+  width: 70px;
+  padding: 10px;
+  background-color: darkcyan;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: aliceblue;
+  margin: 10px;
+  text-align: center;
+}
+.btn:hover{
+  background-color: rgb(96, 155, 155);
+}
+
+main {
+  border: 1px solid dimgray;
+  padding: 10px;
+}
+
+h2 {
+  width: 100%;
+  border-bottom: 1px solid dimgray;
+  margin: 15px 0;
+  color: brown;
+}
+
+footer {
+  border: 1px solid dimgray;
+  border-top: none;
+  padding: 10px;
+  text-align: center;
+}
