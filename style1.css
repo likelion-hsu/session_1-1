@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  font-family: "open Sans";
+}
+
+h2 {
+  border-bottom: 1px solid black;
+  font-size: 26px;
+  color: rgb(134, 31, 31);
+}
+
+div {
+  border: 1 1px solid #ebebeb;
+  box-shadow: 0px 1px 20px 0px rgba(29, 27, 32, 0.4);
+  margin: 14px;
+}
+
+.mainSpace {
+  background-color: rgb(253, 254, 255);
+}
+
+.titlebox {
+  margin-top: 20px;
+}
+
+.titlebutton {
+  float: right;
+  margin-top: 10px;
+}
+
+.mainImg {
+  width: 300px;
+}
+
+.imgSection {
+  float: right;
+  margin: 15px;
+  padding-top: 60px;
+}
+
+.mainTitle {
+  margin: 25px;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+}
