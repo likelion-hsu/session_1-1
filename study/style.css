@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+*{
+    font-family: "Noto Sans"
+}
+h2{
+    border-bottom: 1px solid black;
+    font-size: 26px;
+    color: blue;
+}
+
+div {
+    border: 1 1px solid #180475;
+    box-shadow: 0px 1px 20px 0px rgba(73, 125, 238, 0.4);
+    margin: 15px;
+}
+
+.mainSpace{
+    background-color: white
+}
+
+.titlebox{
+    margin-top: 15px;
+}
+
+.titlebutton{
+    float: right;
+    margin-top: 10px;
+}
+
+.mainbox{
+    margin: 15px;
+}
+
+.Mainimg{
+    /*width 가로의 길이 height 세로의 길이 */
+    width: 250px;
+}
+.imgSection{
+    float: right;
+    margin: 15px;
+    padding-top: 60px;
+}
+
+.mainTitle{
+    margin: 25px;
+    font-weight: bold;
+}
+
+.footer{
+    text-align: center;
+}
