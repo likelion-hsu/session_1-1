@@ -1,0 +1,29 @@
+div {
+    border: 1px solid black;
+}
+
+/* .mainSpace {
+    padding: 30px;
+} */
+
+.titlebox {
+    margin: 30px;
+}
+
+.mainbox {
+    margin: 30px;
+}
+
+.mainSpace1 {
+    padding: 30px;
+}
+
+.titlebox1 {
+    margin-top: 100px;
+    float: right;
+    margin-right: 200px;
+}
+
+.mainbox1 {
+    width: 400px;
+}
