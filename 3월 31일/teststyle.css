@@ -1,0 +1,28 @@
+div{
+    border: 1px solid black;
+}
+
+/*.mainspcae{ 
+    padding: 30px;
+}*/
+
+.titlebox{
+    margin: 30px;
+}
+
+.mainbox{
+    margin: 30px;
+}
+
+.mainspcae1{ 
+    margin : 30px;
+}
+
+.titlebox1{
+    padding: 30px;
+    margin-right: 200px;
+}
+
+.mainbox1{
+    width: 400px;
+}
