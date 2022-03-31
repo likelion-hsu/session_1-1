@@ -11,15 +11,18 @@ h1 {
 h2 {
   font-size: 26px;
   color: red;
-  border-bottom: 1px solid black;
+  border-bottom: 2px double rgb(124, 217, 233);
 }
 
 footer {
   text-align: center;
+  background-color: rgb(169, 230, 169);
+  color: black;
 }
 
 .mainspace {
   background-color: rgb(255, 255, 255);
+  margin: 20px;
 }
 
 div {
@@ -28,7 +31,7 @@ div {
 }
 
 .titlebox {
-  margin-top: 20px;
+  margin: 40px;
 }
 
 .buttonsection {
@@ -37,11 +40,22 @@ div {
 }
 
 .mainbox {
+  padding: 20px;
   margin: 15px;
+  margin-left: 180px;
 }
 
 .mainimg {
-  width: 160px;
+  width: 250px;
+  height: 200px;
   float: right;
+  margin: 60px;
+}
+
+.categorybox {
   margin: 15px;
+  width: 150px;
+  float: left;
+  font-size: 15px;
+  height: 490px;
 }
