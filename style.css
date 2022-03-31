@@ -7,7 +7,7 @@
 
 h2 {
     font-size: 50px;
-    color : red;
+    color :blueviolet;
     border-bottom : 1px solid 
 }
 
@@ -30,14 +30,20 @@ div {
 }
 
 .mainbox {
-    margin : 15px;
+    margin-left : 150px;
+    margin-top : 15px;
 }
 
-.titlebutton {
-    width: 50%;
-    height : 50%;
-    float : right;
+.categorybox {
+    width : 120px;
+    float : left;
+    font-size: 15px;
     margin : 15px;
+    height : 665px;
+}
+.titlebutton {
+    float : right;
+    margin : 20px;
 }
 
 .mainImg {
