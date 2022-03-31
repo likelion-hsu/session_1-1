@@ -26,7 +26,7 @@ div {
 }
 
 .mainbox {
-  margin: 10px;
+  margin-left: 150px;
 }
 
 .mainImg {
@@ -49,4 +49,12 @@ footer {
   float: right;
   margin: 10px;
   padding-top: 60px;
+}
+
+.categorybox {
+  width: 120px;
+  float: left;
+  font-size: 15px;
+  margin: 15px;
+  height: 650px;
 }
