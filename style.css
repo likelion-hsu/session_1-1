@@ -10,21 +10,25 @@ h1 {
 
 h2 {
     font-size: 26px;
-    color: red;
-    border-bottom: 1px solid black;
+    color: gray;
+    border-bottom: 1px solid rgb(153, 150, 150);
+    padding-bottom: 5px;
 }
 
 footer {
     text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
 }
 
 .mainspace {
-    background-color: antiquewhite;
+    background-color: aliceblue;
 }
 
 div {
-    border: 1px solid #eded;
-    box-shadow: 0px 1px 20px 0px rgba(91, 212, 80, 0.4);
+    border: 1px solid #a7d7f9;
+    box-shadow: 0px 1px 20px 0px rgba(17, 192, 255, 0.4);
+    margin: 15px;
 }
 
 .titlebox {
@@ -32,7 +36,19 @@ div {
 }
 
 .mainbox {
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.categorybox {
+    width: 160px;
+    float: left;
+    font-size: 15px;
     margin: 15px;
+    padding-top: 15px;
+    margin-top: 5px;
+    height: 300px;
 }
 
 .mainimg {
