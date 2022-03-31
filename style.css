@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+*{
+    font-family: "Roboto"
+}
+
+h1{
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    font-size: 50px;
+    color: red;
+}
+
+div {
+    /* margin border padding/*
+    padding border margin */
+    border: 1px solid #ededed;
+    box-shadow: 0px 1px 20px 0px rgba(115, 80, 212, 0.4);/* x크기 y크기 흐림정도 번짐정도 색깔*/
+    margin: 15px;
+
+}
+
+.mainspace{
+    background-color: white;
+}
+
+
+.titlebox{
+    margin-top: 15px;
+}
+
+
+.mainbox{
+    margin: 15px;
+}
+.mainimg {
+    /*width 가로길이 heigh */
+    width: 250px;
+}
+
+.imgsection{
+    float: right;
+    margin: 15px;
+    padding-top: 60px;
+}
+.maintitle{
+    margin: 25px;
+    font-weight: bold;
+}
+.titlebutton{
+    float: right;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+}
