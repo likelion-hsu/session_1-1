@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+/* 적용할 폰트 불러오기 */
+
+* { /* 전체를 꾸며주고 싶을 때 별표로 불러주기 */
+    font-family: "Palette Mosaic"; /* 폰트를 적용시켜주기 */
+}
+
+h1{
+    border-bottom: 1px #ededed;
+}
+
+h2 { /*태그 호출할 때는 태그 자체를 적어주기 */
+    font-size: 28px; /* 글자 크기 */
+    color: gray; /* 글자 색상 */
+    border-bottom: 1px solid black; /* 테두리 중에서 아래에 선을 그어주기 */
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+div {
+    /*margin border padding */
+
+    border: 1px solid #ededed; /* 테두리를 만들어주기 */
+    box-shadow: 0px 1px 20px 0px rgba(22, 80, 212, 0.4); /* x크기 y크기 흐린정도 번짐정도 색깔 */
+    /* 박스의 그림자를 생성해 줌, 픽셀 설정 시 콤마 찍으면 안 됨. */
+    margin: 15px; /* 테두리 바깥쪽 여백을 의미 */
+}
+
+
+.titlebox {
+    padding: 20px;
+    border: 1px solid #ededed;
+    margin-top: 150px; /* 윗테두리 바깥쪽 여백을 의미 */
+}
+
+
+.titlebutton
+{
+    float: right; /* 이 문법이 적용된 태그는 고정된 위치가 아니라
+    자유로운 영혼이 되어 이 문법이 적용된 태그 다음 태그와 병렬적으로 위치한다.*/
+    margin-top: 6px;
+}
+
+.mainspace { /* 클래스를 호출할 때는 온점을 꼭 찍어주기 */
+    background-color: white; /* 배경화면 색상 */
+    width: 1400px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.mainTitle {
+    margin: 25px;
+    font-weight: bold; /* 폰트의 무게를 조정해 준다.
+    예를 들어 볼드체, 가는체 등 */
+}
+
+
+.mainbox{
+    width: 1080px;
+    height: 1200px;
+    margin: 30px;
+    margin-left: 150px;
+    margin-bottom: 16px;
+    padding: 30px;
+    padding-bottom: 5px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 1px 20px 0px rgba(25, 80, 212, 0.4);
+}
+
+
+.imgsection {
+    float: right;
+    margin: 15px;
+    padding-top: 60px; /*패딩은 보더의 안쪽 여백으로
+    안의 텍스트나 파일과 박스 사이의 여백을 의미함. */
+}
+
+
+.mainImg
+{
+    /* width는 가로의 길이 height는 세로의 길이 */
+    float: right;
+    width: 200px;
+    margin: 15px;
+    border: 5px solid #ededed;
+}
+
+
+.categorybox22{
+    width: 240px;
+    height: 1200;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    border: 1px solid #ebebeb;
+    float: left;
+    font-size: 15px;
+} /*카테고리 제작 시 사용*/
