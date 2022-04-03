@@ -3,7 +3,7 @@
     font-family: "Noto Sans"
 }
 h2{
-    border-bottom: 1px solid black;
+    /*border-bottom: 1px solid black;*/
     font-size: 26px;
     color: blue;
 }
@@ -29,6 +29,14 @@ div {
 
 .mainbox{
     margin: 15px;
+}
+
+.categorybox{
+    width: 120px;
+    float: left;
+    font-size: 15px;
+    margin: 15px;
+    height: 665px;
 }
 
 .Mainimg{
