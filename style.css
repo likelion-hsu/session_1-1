@@ -19,7 +19,9 @@ div {
     border: 1px solid #ededed;
     box-shadow: 0px 1px 20px 0px rgba(115, 80, 212, 0.4);/* x크기 y크기 흐림정도 번짐정도 색깔*/
     margin: 15px;
-
+}
+.searchBox{
+    text-align: right;
 }
 
 .mainspace{
@@ -33,7 +35,15 @@ div {
 
 
 .mainbox{
+    margin-left: 150px;
+}
+.categorybox{
+    width: 120px;
+    float: left;
     margin: 15px;
+    height: 665px;
+    font-size: 15px;
+
 }
 .mainimg {
     /*width 가로길이 heigh */
@@ -52,6 +62,9 @@ div {
 .titlebutton{
     float: right;
     margin-top: 10px;
+}
+.naver {
+    text-align: center;
 }
 footer{
     text-align: center;
