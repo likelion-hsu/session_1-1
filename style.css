@@ -9,7 +9,7 @@ body {
 }
 button{
     position: relative;
-    left: 95%;
+    left: 90%;
     bottom: 85px;
     background-color: black;
     color: white;
@@ -37,4 +37,20 @@ button{
 }
 .image{
     flex: 0.1;
+}
+.catagory{
+    float: left;
+    width: 230px;
+    margin: 15px;
+    height: 665px;
+    border : 2px solid gray;
+    box-shadow: 0px 1px 20px 0px rgb(145, 144, 144);
+}
+.copyright{
+    width : 150px;
+    height : 25px;
+    text-align :center;
+    background-color: aquamarine;
+    margin-top : 200px;
+    margin-left : 600px;
 }
