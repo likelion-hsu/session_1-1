@@ -6,46 +6,75 @@
 
 h1 {
     padding: 15px;
+    border-bottom: 1px #ebebeb;
 }
 
 h2 {
     font-size: 26px;
-    color: red;
-    border-bottom: 1px soild bl;
-}
-
-footer {
-    text-align: center;
+    font-weight: bold;
+    color: #282828;
+    border-bottom: 1px solid black;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
 }
 
 .mainSpace {
-    background-color: white;
+    width: 1430px;
+    padding: 30px;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 1px 20px 0px rgba(16, 195, 102, 0.4);
 }
 
 div {
-    /*margin border padding
-  padding border margin*/
-
     border: 1px solid #ededed;
-    box-shadow: 0px 1px 20px 0px rgba(81, 189, 148, 0.4); /* x크기 y크기 흐림정도 번짐정도 색깔 */
+    box-shadow: 0px 1px 20px 0px rgba(16, 195, 102, 0.4);
 }
 
 .titlebox {
-    margin-top: 15px;
+    width: 1370px;
+    padding: 5px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 1px 20px 0px rgba(16, 195, 102, 0.4);
 }
 
 .buttonSection {
     float: right;
-    margin: 20px;
+    margin: 60px;
+}
+
+.categorybox {
+    width: 200px;
+    height: 330px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 1px 20px 0px rgba(16, 195, 102, 0.4);
+    float: left;
 }
 
 .mainbox {
-    margin: 15px;
+    width: 1150px;
+    height: 600px;
+    margin: 30px;
+    margin-left: 220px;
+    margin-bottom: 16px;
+    padding: 30px;
+    padding-bottom: 5px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 1px 20px 0px rgba(16, 195, 102, 0.4);
 }
 
 .mainImg {
-    /*width 가로의길이 height 세로의길이*/
-    width: 160px;
+    width: 300px;
     float: right;
-    margin: 15px;
+    margin: 80px;
+}
+
+.footer {
+    text-align: center;
 }
