@@ -1,0 +1,25 @@
+.catagorybox{
+    width: 120px;
+    float: left;
+    font-size: 15px;
+    height: 665px;
+}
+h2 {
+    border-bottom: 5px solid black;
+    font-size: 26px;
+    color: pink
+    
+div {
+    border: 1px solid black:
+}
+.mainspace {
+    padding: 38px;
+}
+
+.tltlebox {
+    margin: 38px;
+
+}
+.mianbox {
+    margin: 38px;
+}
