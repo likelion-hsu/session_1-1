@@ -1,24 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    font-family:"Titillium Web";
+   
+}
 h1 {
-    border-bottom: 1px #ebebeb;
+    border-bottom: 1px #a6eef4;
 }
 
 h2 {
     font-size: 26px;
     font-weight: bold;
     color: #282828;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(96, 24, 96);
     margin-bottom: 16px;
     padding-bottom: 5px;
 }
+
 .titleButton {
     float: right;
-    margin-top: 6px;
+    margin-top: 20px;
 }
 
 .titlebox {
     padding: 20px;
-    border: 1px solid #ebebeb;
-    box-shadow: 0px 1px 20px 0px rgba(115, 80, 212, 0.4);
+    border: 1px solid #e3ff72;
+    box-shadow: 0px 1px 20px 0px rgba(106, 167, 201, 0.879);
 }
 
 .searchBox {
@@ -31,9 +37,10 @@ h2 {
     margin: 30px;
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid #ebebeb;
-    box-shadow: 0px 1px 20px 0px rgba(115, 80, 212, 0.4)
+    border: 1px solid #edcfaa;
+    box-shadow: 0px 1px 20px 0px rgba(154, 159, 165, 0.933)
 }
+
 
 .maintitle {
     margin-left: 25px;
@@ -62,6 +69,7 @@ h2 {
     width: 300px;
 }
 
+
 .categorybox {
     width: 240px;
     height: 1200px;
@@ -74,10 +82,5 @@ h2 {
     float: left;
 }
 
-.naver {
-    text-align: center;
-}
 
-.foot {
-    text-align: center;
-}
+
